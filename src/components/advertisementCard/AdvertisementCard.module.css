@@ -1,0 +1,28 @@
+.advertisement-card {
+    width: 22rem; /* Ширина карточки */
+    margin-bottom: 1rem; /* Отступ снизу */
+    border: 1px solid #ccc; /* Рамка карточки */
+    border-radius: 8px; /* Закругление углов */
+    overflow: hidden; /* Скрытие переполнения */
+    cursor: pointer; /* Курсор при наведении */
+    transition: transform 0.2s; /* Плавный переход */
+}
+
+.advertisement-card:hover {
+    transform: scale(1.05); /* Увеличение карточки при наведении */
+}
+
+.advertisement-image {
+    height: 200px; /* Высота изображения */
+    width: 100%; /* Ширина 100% */
+    object-fit: contain; /* Сохранение пропорций изображения */
+}
+
+.advertisement-body {
+    padding: 1rem; /* Отступ внутри карточки */
+}
+
+.advertisement-title {
+    margin: 0; /* Убираем отступы */
+    font-size: 1.25rem; /* Размер шрифта заголовка */
+}
